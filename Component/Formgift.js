@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 //import { useState } from 'react' 
 
-export default function Form(){
+export default function Formgift(){
 //   const [ occasion, setoccasion ] = useState('')
 //   const [ budget, setbudget ] = useState('')
 //   const [ deliverytime, setdeliverytime ] = useState('')
@@ -33,7 +33,7 @@ export default function Form(){
             if (!field.name) return;
             formData[field.name] = field.value;
         })
-        await fetch('/api/notes'  ,
+        await fetch('/api/giftapi'  ,
     {
         body: JSON.stringify(formData),
         headers: {'content-type' : 'application/json'},

@@ -1,5 +1,5 @@
 import dbConnect from '../../../utils/dbConnect';
-import Note from '../../../models/Note';
+import Giftnote from '../../../models/Giftnote';
 
 dbConnect();
 
@@ -18,7 +18,7 @@ export default async (req, res) => {
             try {
                 //body: JSON.parse(req.body)
                // const notes = await JSON.parse(req.body);
-                const notessave = await Note.create(req.body);
+                const notessave = await Giftnote.create(req.body);
                 // const newdata = {
                 //     id: Date.now(),
                 //     text: occasion,

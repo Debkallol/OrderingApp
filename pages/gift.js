@@ -1,7 +1,7 @@
 import { responseSymbol } from 'next/dist/server/web/spec-compliant/fetch-event';
 import Head from 'next/head'
 import Footer from '../Component/Footer';
-import Form from '../Component/form';
+import Formgift from '../Component/Formgift';
 import styles from '../styles/Home.module.css'
 
 //import dbConnect from '../../../utils/dbConnect';
@@ -54,7 +54,7 @@ export default function gift () {
       </Head>
             <main className={styles.main}>
                 <div>
-                    <Form />
+                    <Formgift />
                 </div>
             </main>
                 
