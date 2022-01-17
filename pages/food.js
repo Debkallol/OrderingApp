@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Footer from '../Component/Footer';
 import Formfood from '../Component/Formfood';
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 //import dbConnect from '../../../utils/dbConnect';
 //import giftschema from '../../../models/Note';
