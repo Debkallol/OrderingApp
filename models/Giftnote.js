@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+//eventModel = mongoose.model('events');
+//mongoose.model('Giftnote', NoteSchema );
 //   const subSchema = new mongoose.Schema({
 
 //   });
