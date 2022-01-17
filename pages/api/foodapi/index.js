@@ -3,7 +3,8 @@ import Foodnote from '../../../models/Foodnote';
 
 dbConnect();
 
-export default async (req, res) => {
+export default function handler(req, res){
+    
         const { method } = req;
         switch (method) {
             // case 'GET':
@@ -18,7 +19,7 @@ export default async (req, res) => {
                 try {
                     //body: JSON.parse(req.body)
                    // const notes = await JSON.parse(req.body);
-                    const notessave = await Foodnote.create(req.body);
+                    const notessave = Foodnote.create(req.body);
                     // const newdata = {
                     //     id: Date.now(),
                     //     text: occasion,
@@ -41,7 +42,7 @@ export default async (req, res) => {
     
     
                 }
-    }
+    
     
     // export default function handler (req, res){
     //     const body = req.body
@@ -58,5 +59,7 @@ export default async (req, res) => {
     //                     deliverylocation: req.body,
     //                     customerNameAndNumber: req.body,
     //                     message: req.body
+
+}
 
  

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
       Any Query Call us at +8801907417841
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Gift Basket!</a>
+          Welcome to <a href="https://ordering-app-beta.vercel.app/">Gift Basket!</a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -24,15 +25,20 @@ export default function Home() {
         </p> */}
 
         <div className={styles.grid}>
-          <a href="gift" className={styles.card}>
+        <Link href="/gift">
+          <a  className={styles.card}>
             <h2>Gift Items &rarr;</h2>
             <p>Find your suitable gift item or choose one</p>
           </a>
-
-          <a href="food" className={styles.card}>
+        </Link>
+          
+        <Link  href="/food">
+          <a  className={styles.card}>
             <h2>Food Items &rarr;</h2>
             <p>Find your suitabele food item with perfect calorie</p>
           </a>
+        </Link>
+          
 
           {/* <a
             href="https://github.com/vercel/next.js/tree/master/examples"
