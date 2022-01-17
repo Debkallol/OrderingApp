@@ -3,8 +3,7 @@ import Giftnote from '../../../models/Giftnote';
 
 dbConnect();
 
-export default function(){
-    async (req, res) => {
+export default async (req, res) => {
         const { method } = req;
         switch (method) {
             // case 'GET':
@@ -60,5 +59,5 @@ export default function(){
     //                     customerNameAndNumber: req.body,
     //                     message: req.body
     
-}
+
 

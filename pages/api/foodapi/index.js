@@ -3,8 +3,7 @@ import Foodnote from '../../../models/Foodnote';
 
 dbConnect();
 
-export default function(){
-    async (req, res) => {
+export default async (req, res) => {
         const { method } = req;
         switch (method) {
             // case 'GET':
@@ -59,5 +58,5 @@ export default function(){
     //                     deliverylocation: req.body,
     //                     customerNameAndNumber: req.body,
     //                     message: req.body
-}
+
  
