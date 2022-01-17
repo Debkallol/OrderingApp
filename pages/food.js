@@ -60,7 +60,7 @@ export default function gift () {
                 
             
             
-            <a href='/' className={styles.back}> Back </a>
+            <Link href="/" className={styles.back}> Back </Link>
 
         <Footer />
     

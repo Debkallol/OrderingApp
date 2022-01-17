@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Footer from '../Component/Footer';
 import Formgift from '../Component/Formgift';
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 //import dbConnect from '../../../utils/dbConnect';
 //import giftschema from '../../../models/Note';
@@ -60,7 +61,8 @@ export default function gift () {
                 
             
             
-            <a href='/' className={styles.back}> Back </a>
+            
+            <Link href="/" className={styles.back}> Back </Link>
 
         <Footer />
     
