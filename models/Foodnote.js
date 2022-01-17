@@ -1,4 +1,7 @@
 const mongoose = require('mongoose');
+import dbConnect from '../utils/dbConnect';
+
+dbConnect();
 //   const subSchema = new mongoose.Schema({
 
 //   });

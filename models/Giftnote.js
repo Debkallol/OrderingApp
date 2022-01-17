@@ -1,4 +1,7 @@
 const mongoose = require('mongoose');
+import dbConnect from '../utils/dbConnect';
+
+dbConnect();
 //eventModel = mongoose.model('events');
 //mongoose.model('Giftnote', NoteSchema );
 //   const subSchema = new mongoose.Schema({
