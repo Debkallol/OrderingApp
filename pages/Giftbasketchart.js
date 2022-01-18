@@ -28,7 +28,7 @@ import Giftchart from '../Component/Giftchart';
 //   }
 
 
-export default function GChart () {
+export default function Giftbasketchart () {
   // async 
 
         // handleOnSubmit.getInitialProps = async() => {

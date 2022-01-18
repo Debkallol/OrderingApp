@@ -28,7 +28,7 @@ import Foodchart from '../Component/foodchart';
 //   }
 
 
-export default function FChart () {
+export default function Foodcaloriechart () {
   // async 
 
         // handleOnSubmit.getInitialProps = async() => {
