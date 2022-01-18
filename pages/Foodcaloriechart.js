@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Footer from '../Component/Footer';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Foodchart from '../Component/foodchart';
+import Foodchart from '../Component/Foodchart';
 
 //import dbConnect from '../../../utils/dbConnect';
 //import giftschema from '../../../models/Note';
