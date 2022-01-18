@@ -48,7 +48,7 @@ export default function Formfood(){
         <div>
                 <h1 className={styles.title}>My <a>Food Plan</a></h1>
                 <p>Food is the supplement to your body and your beautiful mind. Don't be hesistate to take food. Healthy food always gives you the strength you need. So fullfilling your calorie nutrition with according to your body weight and hight we are here to support you. The snack basket will be prepared according to your calorie need.</p>
-                <p>Price range is between 1000-3000 BDT</p>
+                {/* <p>Price range is between 1000-3000 BDT</p> */}
                 <br></br>
                 
                 
@@ -58,7 +58,7 @@ export default function Formfood(){
                 <input type="text" name="Food" placeholder="type food you need"></input>
 
                 <h2>Tell us something about your calorie need ? Between 200 calorie to 3500 calorie?</h2>
-                <input name="calorie" placeholder="ex: 1200 calorie"></input>
+                <input name="calorie" placeholder="ex: 400 calorie"></input>
                 {/* <h2>Also tell us your snack basket budget,</h2>
                 <input id="budget" placeholder="budget"></input> */}
 
@@ -79,8 +79,9 @@ export default function Formfood(){
                 <button type="submit" className={styles.card} type="submit">Confirm Your Snack Basket Order</button>
                 </form>
 
-              
+                <p>After confirm your order wait for our confirmation call</p>
                 <h4>For the Sylhet City Peoples pickup location is fixed at Lamabazar point near PanshiBazar opposite of UCBL Bank.</h4>
+                
                 </div>
     )
 }

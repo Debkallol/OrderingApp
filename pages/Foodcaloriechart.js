@@ -1,9 +1,9 @@
 import { responseSymbol } from 'next/dist/server/web/spec-compliant/fetch-event';
 import Head from 'next/head'
 import Footer from '../Component/Footer';
-import Formgift from '../Component/Formgift';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Foodchart from '../Component/foodchart';
 
 //import dbConnect from '../../../utils/dbConnect';
 //import giftschema from '../../../models/Note';
@@ -28,7 +28,7 @@ import Link from 'next/link'
 //   }
 
 
-export default function gift () {
+export default function FChart () {
   // async 
 
         // handleOnSubmit.getInitialProps = async() => {
@@ -55,13 +55,14 @@ export default function gift () {
       </Head>
             <main className={styles.main}>
                 <div>
-                    <Formgift />
+                    <Foodchart/>
                 </div>
             </main>
                 
             
-            <Link href="/Giftbasketchart" className={styles.card}> Gift Basket Chart &rarr; </Link>
-            <p>For Home Delivery Extra 35/- Will Add</p>
+            
+            <Link href="/food" className={styles.back}> Back </Link>
+            <br></br>
             <br></br>
             <Link href="/" className={styles.back}> Home </Link>
 

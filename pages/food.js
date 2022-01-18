@@ -28,7 +28,7 @@ import Link from 'next/link'
 //   }
 
 
-export default function gift () {
+export default function food () {
   // async 
 
         // handleOnSubmit.getInitialProps = async() => {
@@ -60,8 +60,10 @@ export default function gift () {
             </main>
                 
             
-            
-            <Link href="/" className={styles.back}> Back </Link>
+            <Link href="/Foodcaloriechart" className={styles.card}> Food Calorie Chart &rarr; </Link>
+            <p>For Home Delivery Extra 35/- Will Add</p>
+            <br></br>
+            <Link href="/" className={styles.back}> Home </Link>
 
         <Footer />
     

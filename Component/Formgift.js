@@ -76,7 +76,7 @@ export default function Formgift(){
                 <button  type="submit"  className={styles.card}>Confirm Your Gift Basket Order</button>
                 </form>
 
-              
+                <p>After confirm your order wait for our confirmation call</p>
                 <h4>For the Sylhet City Peoples pickup location is fixed at Lamabazar point near PanshiBazar opposite of UCBL Bank.</h4>
                 </div>
     )
