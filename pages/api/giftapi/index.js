@@ -3,7 +3,7 @@ import Giftnote from '../../../models/Giftnote';
 
 dbConnect();
 
-export default function handler(req, res){
+export default async = (req, res) => {
     
         const { method } = req;
         switch (method) {
@@ -19,7 +19,7 @@ export default function handler(req, res){
                 try {
                     //body: JSON.parse(req.body)
                    // const notes = await JSON.parse(req.body);
-                    const notessave = Giftnote.create(req.body);
+                    const notessave = await Giftnote.create(req.body);
                     // const newdata = {
                     //     id: Date.now(),
                     //     text: occasion,
