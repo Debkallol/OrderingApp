@@ -3,7 +3,7 @@ import Giftnote from '../../../models/Giftnote';
 
 dbConnect();
 
-export default async = (req, res) => {
+export default async (req, res) => {
     
         const { method } = req;
         switch (method) {

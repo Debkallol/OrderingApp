@@ -3,7 +3,7 @@ import Foodnote from '../../../models/Foodnote';
 
 dbConnect();
 
-export default async = (req, res) => {
+export default async (req, res) => {
     
         const { method } = req;
         switch (method) {
