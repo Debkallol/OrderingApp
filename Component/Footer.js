@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Footer(){
     return(
@@ -9,9 +10,11 @@ export default function Footer(){
         //   rel="noopener noreferrer"
         >
             <div className={styles.grid}>
-            <h5>If you chase to cancle the order please imediatelly call us at this +8801674859280 or +8801773496858 and tell your ordering name</h5>
-            <p> Query Call at +8801907417841 </p>
+            <h5 className={styles.justify} >If you chase to cancle the order please imediatelly call us at this +8801674859280 or +8801773496858 and tell your ordering name</h5>
+            <p className={styles.cardchart2} > Query Call at +8801907417841 </p>
+            <Image src="/gblogo7.jpg" width={300} height={300}/>
             </div>
+            
             
             {/* <br></br>
             <p className={styles.footermain}>Powered by Orthodox</p> */}
