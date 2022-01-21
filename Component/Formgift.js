@@ -47,7 +47,8 @@ export default function Formgift(){
     return(
         <div>
                 <h1 className={styles.title}>My <a>Gift Plan</a></h1>
-                <p>The healthy lovely gifts are available within us. The baskets will be included chocolates chit sheets and so many surprises. Go ahead to chase one, for your father mother brother sister or any of your loving person and dont forget about your friends.</p>
+                {/* <p>The healthy lovely gifts are available within us. The baskets will be included chocolates chit sheets and so many surprises. Go ahead to chase one, for your father, mother, brother, sister or any of your loving person and dont forget about your friends.</p> */}
+                <p>We provide lovely gifts of great quality. The baskets will include chocolates, chit sheets and many more surprises. So go ahead and Choose one for your parents, siblings, friends and loved ones.</p> 
                 {/* <h3>Price range between 1000-5000BDT</h3> */}
                 <br></br>
                 

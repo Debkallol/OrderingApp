@@ -54,13 +54,20 @@ export default function gift () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
             <main className={styles.main}>
+                Query Call at +8801907417841
                 <div>
                     <Formgift />
                 </div>
             </main>
                 
             
-            <Link href="/Giftbasketchart" className={styles.card}> Gift Basket Chart &rarr; </Link>
+            <Link href="/Giftbasketchart" > 
+            <a>
+            <div className={styles.cardchart}>
+            Gift Basket Chart &rarr; 
+            </div>
+            </a>  
+            </Link>
             <p>For Home Delivery Extra 35/- Will Add</p>
             <br></br>
             <Link href="/" className={styles.back}> Home </Link>

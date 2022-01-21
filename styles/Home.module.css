@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.designer {
+  font-weight: 700;
+  
+}
+
 .footermain {
   min-height: 10vh;
   padding: 4rem 0;
@@ -112,6 +117,20 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+}
+
+.cardchart {
+  margin: 1rem;
+  padding: 1.0rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #0070f3;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 200px;
+  background-color: #0070f3;
+
 }
 
 .card:hover,

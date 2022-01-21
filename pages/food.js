@@ -54,13 +54,20 @@ export default function food () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
             <main className={styles.main}>
+            Query Call at +8801907417841
                 <div>
                     <Formfood />
                 </div>
             </main>
                 
             
-            <Link href="/Foodcaloriechart" className={styles.card}> Food Calorie Chart &rarr; </Link>
+            <Link href="/Foodcaloriechart" > 
+            <a>
+            <div className={styles.cardchart}>
+            Food Calorie Chart &rarr; 
+            </div>
+            </a>
+            </Link>
             <p>For Home Delivery Extra 35/- Will Add</p>
             <br></br>
             <Link href="/" className={styles.back}> Home </Link>
