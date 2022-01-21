@@ -54,7 +54,7 @@ export default function gift () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
             <main className={styles.main}>
-                Query Call at +8801907417841
+                {/* Query Call at +8801907417841 */}
                 <div>
                     <Formgift />
                 </div>

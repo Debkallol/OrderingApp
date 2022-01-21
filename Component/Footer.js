@@ -8,7 +8,11 @@ export default function Footer(){
         //   target="_blank"
         //   rel="noopener noreferrer"
         >
+            <div className={styles.grid}>
             <h5>If you chase to cancle the order please imediatelly call us at this +8801674859280 or +8801773496858 and tell your ordering name</h5>
+            <p> Query Call at +8801907417841 </p>
+            </div>
+            
             {/* <br></br>
             <p className={styles.footermain}>Powered by Orthodox</p> */}
           {/* Powered by{' '}
