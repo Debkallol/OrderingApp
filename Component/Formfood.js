@@ -1,4 +1,5 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 //import { useState } from 'react' 
 
 export default function Formfood(){
@@ -76,7 +77,7 @@ export default function Formfood(){
                 <textarea name="message" rows="4" cols="40"></textarea>
 
                 <br></br>
-                <button type="submit" className={styles.card} type="submit">Confirm Your Snack Basket Order</button>
+                <Link href="/confirmation"><button type="submit" className={styles.card} type="submit">Confirm Your Snack Basket Order</button></Link>
                 </form>
 
                 <p>After confirm your order wait for our confirmation call</p>

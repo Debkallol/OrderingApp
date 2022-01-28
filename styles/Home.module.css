@@ -149,6 +149,7 @@
 .justify{
   text-align: justify;
   text-justify: inherit;
+  margin: 10px;
 }
 
 

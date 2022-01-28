@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 //import { useState } from 'react' 
 
 export default function Formgift(){
@@ -74,7 +75,7 @@ export default function Formgift(){
                 <textarea name="message" rows="4" cols="40"></textarea>
 
                 <br></br>
-                <button  type="submit"  className={styles.card}>Confirm Your Gift Basket Order</button>
+                <Link href="/confirmation"><button  type="submit"  className={styles.card}>Confirm Your Gift Basket Order</button></Link>
                 </form>
 
                 <p>After confirm your order wait for our confirmation call</p>

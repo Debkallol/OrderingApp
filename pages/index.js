@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3090777775261199"
+     crossorigin="anonymous"></script>
         <title>Gift Basket</title>
-        <meta name="Giftbasket" content="powered by orthodox" />
+        <meta name="description" content="Chase your gift basket. powered by orthodox" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
